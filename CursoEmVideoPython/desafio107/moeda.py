@@ -11,6 +11,7 @@ def diminuir(valor, per=1, format=False):
         corrigido = moeda(corrigido)
     return corrigido
 
+
 def dobro(valor, format=False):
     corrigido = '{:.2f}'.format(float(valor * 2))
     if format == True:
