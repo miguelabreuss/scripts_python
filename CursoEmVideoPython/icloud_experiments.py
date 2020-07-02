@@ -1,6 +1,6 @@
 import pyicloud
 
-api = pyicloud.PyiCloudService('miguelabreuss@gmail.com', 'Hqepspltj1986!')
+api = pyicloud.PyiCloudService('miguelabreuss@xxxxx.xxx', 'xxxxxxxxxx')
 if api.requires_2sa:
     import click
 
