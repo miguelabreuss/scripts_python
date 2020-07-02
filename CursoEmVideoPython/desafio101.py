@@ -10,6 +10,7 @@ def voto(ano):
         res = f'Com {idade} anos o voto é OBRIGATÓRIO PARA ALFABETIZADOS.'
     return res
 
+
 from datetime import datetime
 
 print(voto(int(input("Qual o ano de nascimento? "))))

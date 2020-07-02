@@ -1,4 +1,4 @@
-import titulo
+from CursoEmVideoPython import titulo
 
 def cadastro(nome, idade):
     f = open('pessoas_cadastradas.txt', 'a')
