@@ -24,3 +24,5 @@ if api.requires_2sa:
 
 for photo in api.photos.albums['Favorites']:
     print(photo, photo.filename)
+
+
